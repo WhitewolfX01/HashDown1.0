@@ -37,7 +37,7 @@ def body(hash):
 
 i = 0
 while(i<100):
-    st = input("Enter the hash:\n")
+    st = input("\nEnter the hash:\n")
     print("Possible Hash Types:")
     body(st)
     i = i + 1
