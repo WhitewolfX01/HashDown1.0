@@ -8,40 +8,40 @@ def hashgen():
     opt = int(input("\nEnter Your Choice\n>>> "))
     match opt:
         case 1:
-            import adler32hashgen
+            import hashgenerator.adler32hashgen
         case 2:
-            import base64hashgen
+            import hashgenerator.base64hashgen
         case 3:
-            import crc16hashgen
+            import hashgenerator.crc16hashgen
         case 4:
-            import crc32hashgen
+            import hashgenerator.crc32hashgen
         case 5:
-            import md2hashgen
+            import hashgenerator.md2hashgen
         case 6:
-            import md4hashgen
+            import hashgenerator.md4hashgen
         case 7:
-            import md5hashgen
+            import hashgenerator.md5hashgen
         case 8:
-            import ripemd160hashgen
+            import hashgenerator.ripemd160hashgen
         case 9:
-            import sha1hashgen
+            import hashgenerator.sha1hashgen
         case 10:
-            import sha224hashgen
+            import hashgenerator.sha224hashgen
         case 11:
-            import sha256hashgen
+            import hashgenerator.sha256hashgen
         case 12:
-            import sha384hashgen
+            import hashgenerator.sha384hashgen
         case 13:
-            import sha512hashgen
+            import hashgenerator.sha512hashgen
         case 14:
-            import sha3_224hashgen
+            import hashgenerator.sha3_224hashgen
         case 15:
-            import sha3_256hashgen
+            import hashgenerator.sha3_256hashgen
         case 16:
-            import sha3_384hashgen
+            import hashgenerator.sha3_384hashgen
         case 17:
-            import sha3_512hashgen
+            import hashgenerator.sha3_512hashgen
         case 18:
-            import shake128hashgen
+            import hashgenerator.shake128hashgen
         case 19:
-            import shake256hashgen
+            import hashgenerator.shake256hashgen
