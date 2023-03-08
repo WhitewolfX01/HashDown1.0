@@ -1,6 +1,7 @@
 # HashDown1.0
 HashDown1.0 is the 1st version of HashDown.
 It is completely written in Python programming language.
+It is an offline tool i.e. it does not need internet to run.
 This tool has basically 2 functions:
 i>  Generate Hashes
 ii> Identify Hashes
